@@ -304,7 +304,7 @@ def main(input_file, output_file, batch_size=100, max_workers=8):
 
 if __name__ == "__main__":
     name = 'iweb'
-    input_file = f"vocab/{name}.txt"  # Input file path
-    output_file = f"vocab/{name}.csv"  # Output file path
+    input_file = f"iweb_data/{name}.txt"  # Input file path
+    output_file = f"iweb_data/{name}.csv"  # Output file path
 
     main(input_file, output_file, max_workers=4)
